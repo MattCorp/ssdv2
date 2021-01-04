@@ -13,7 +13,7 @@ fi
 
 
 ## Constants
-readonly PIP="9.0.3"
+readonly PIP="20.3.3"
 readonly ANSIBLE="2.9"
 
 ## Environmental Variables
