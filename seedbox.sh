@@ -15,7 +15,7 @@ if [ ! -f "${SCRIPTPATH}/ssddb" ]; then
   read -p "Appuyez sur entrée pour continuer, ou ctrl+c pour sortir"
   
   ## Constants
-  readonly PIP="9.0.3"
+  readonly PIP="20.3.3"
   readonly ANSIBLE="2.9"
   python3 -m pip install --user --disable-pip-version-check --upgrade --force-reinstall \
   pip==${PIP}
