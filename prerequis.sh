@@ -10,7 +10,7 @@ CURRENT_SCRIPT=$(readlink -f "$0")
 # Absolute path this script is in.
 export SCRIPTPATH=$(dirname "$CURRENT_SCRIPT")
 
-  readonly PIP="9.0.3"
+  readonly PIP="20.3.3"
   readonly ANSIBLE="2.9"
   ${SCRIPTPATH}/includes/config/scripts/prerequis_root.sh ${SCRIPTPATH}
   
